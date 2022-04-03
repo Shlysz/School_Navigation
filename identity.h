@@ -2,17 +2,17 @@
 #include <iostream>
 using namespace std;
 
-//Éí·İµÄ³éÏóµÄ»ùÀà
+//èº«ä»½çš„æŠ½è±¡çš„åŸºç±»
 class Identity
 {
 public:
+//æˆ‘åœ¨Githubé‡Œä¿®æ”¹æ­¤æ–‡ä»¶
+	//æ“ä½œèœå•
+	virtual void openMenu() = 0;//çº¯è™šå‡½æ•°,å­ç±»å¿…é¡»é‡å†™
 
-	//²Ù×÷²Ëµ¥
-	virtual void openMenu() = 0;//´¿Ğéº¯Êı,×ÓÀà±ØĞëÖØĞ´
-
-	//ÓÃ»§Ãû
+	//ç”¨æˆ·å
 	string m_Name;
-	//ÃÜÂë
+	//å¯†ç 
 	string m_Password;
 
 
